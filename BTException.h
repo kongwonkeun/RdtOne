@@ -11,13 +11,13 @@
 
 class BTException : std::exception
 {
-	std::string m_message;
+    std::string m_message;
 public:
-	BTException(std::string message) NOEXCEPT {
-		this->m_message = message;
-	}
-	virtual const char* what() const NOEXCEPT {
-		return m_message.c_str();
-	}
+    BTException(std::string message) NOEXCEPT {
+        this->m_message = message;
+    }
+    virtual const char* what() const NOEXCEPT {
+        return m_message.c_str();
+    }
 };
 
