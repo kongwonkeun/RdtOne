@@ -13,7 +13,7 @@ class  BTSerialPort
     BTSerialPort(std::string address, int channel);
 public:
     ~BTSerialPort();
-    static BTSerialPort* createSocket(std::string address, int channel);
+    static BTSerialPort* create(std::string address, int channel);
     void connectSocket();
     void closeSocket();
     int  readData(char* buffer, int length);

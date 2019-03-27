@@ -27,6 +27,12 @@
     <ClInclude Include="BTException.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="BTDeviceService.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BTDeviceInquiry.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -39,6 +45,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="BTSerialPort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BTDeviceInquiry.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BTDeviceService.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
